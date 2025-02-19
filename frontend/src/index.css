@@ -1,0 +1,80 @@
+html, body, #root{
+  height: 100%;
+  font-family: avenir, sans-serif
+}
+
+/* IMPORTS */
+@import "tailwindcss";
+
+/* COLORS CONFIG */
+:root {
+  --primary-color: #1C1C1C;
+  --secondary-color: #DADDD8;
+  --control-color: #FAFAFF;
+  --light-color: #ECEBE4;
+  --danger-color: #be132c;
+  --font-size: 16px;
+}
+
+/* BACKGROUNDS */
+.bg-primary {
+  background-color: var(--primary-color);
+}
+
+.bg-secondary {
+  background-color: var(--secondary-color);
+}
+
+.bg-control {
+  background-color: var(--control-color);
+}
+
+.bg-light {
+  background-color: var(--light-color);
+}
+
+/* COLORS */
+.text-primary {
+  color: var(--primary-color);
+}
+
+.text-secondary {
+  color: var(--secondary-color);
+}
+
+.text-control {
+  color: var(--control-color);
+}
+
+.text-light {
+  color: var(--light-color);
+}
+
+.text-danger {
+  color: var(--danger-color);
+}
+
+
+/* FILL */
+.fill-control-color {
+  fill: var(--control-color);
+}
+
+/* EFFECTS */
+button:disabled {
+  cursor: default !important;
+  opacity: 0.6;            /* Transparência para indicar desabilitado */
+}
+
+button {
+  cursor: pointer;
+}
+
+/* FONTS */
+@font-face {
+  font-family: 'avenir';
+  src: url('/fonts/avenir-medium.otf') format('otf');
+  font-weight: normal;
+  font-style: normal;
+}
+

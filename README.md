@@ -32,7 +32,7 @@ Este projeto permite a gestão de eventos com as seguintes funcionalidades:
 Clone este repositório para sua máquina:
 
 ```bash
-git clone https://github.com/seu-usuario/evento-crm.git
+git clone https://github.com/ViniciusGomesBrandao/evento-crm
 cd evento-crm
 ```
 
